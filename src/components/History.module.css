@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 59%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 6%;
+    margin: 0 auto;
+    margin-top: 108px;
+    margin-bottom: 146px;
+}
+.photo{
+    background-image: url(../images/team.png);
+    background-size: cover;
+    height: 462px;
+}
+.text{
+    color: #756363;
+    font-family: 'Red Hat Text', sans-serif;
+}

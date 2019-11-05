@@ -1,0 +1,1 @@
+import style from './Slider.module.css'
